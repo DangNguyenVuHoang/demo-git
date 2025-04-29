@@ -2,6 +2,11 @@ git add -A: đưa code vào staging
 git commit -m "message": commit code với nội dung message
 git log: xem lịch xử commmit
 git branch: xem danh sách các nhánh đang có
-git config --global user.name "Vu Hoang"
+git config --global user.name "DangNguyenVuHoang"
 git config --global user.email "dangnguyenvuhoang8384@gmail.com"
 git push -u origin master
+b. Xóa remote origin cũ và thêm lại (nếu cần thiết):
+git remote remove origin
+git remote add origin https://github.com/DangNguyenVuHoang/demo-git.git
+Sau khi kiểm tra/chỉnh sửa remote, thử push lại:
+git push -u origin main
