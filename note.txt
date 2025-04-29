@@ -10,3 +10,13 @@ git remote remove origin
 git remote add origin https://github.com/DangNguyenVuHoang/demo-git.git
 Sau khi kiểm tra/chỉnh sửa remote, thử push lại:
 git push -u origin main 
+
+Có thể truy cập tạo mới trên git để xem thông tin hướng dẫn chi tiết.
+git add -A
+=> thêm tắt cả vào stagging
+git commit -m "massage"
+=> tạo commit (xác nhận) với nội dung massage
+git push -u origin master
+=> đẩy lần đầu. ( đẩy và publish nhánh master)
+git push 
+=> commit lên remote
