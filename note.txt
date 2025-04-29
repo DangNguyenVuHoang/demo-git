@@ -20,3 +20,5 @@ git push -u origin master
 => đẩy lần đầu. ( đẩy và publish nhánh master)
 git push 
 => commit lên remote
+git checkout -b feature-home
+=> tạo mới từ branch đang ở.
